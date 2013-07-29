@@ -1,19 +1,81 @@
-<!Doctype html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
 	<META name="viewport" content="width=device-width, initial-scale=1.0">
 	<link rel="stylesheet" href="bootstrap.min.css">
 	<link rel="stylesheet" href="bootstrap-responsive.min.css">
+  <script src="bootstrap.min.js"></script>
 	<title>Aprendiendo Bootstrap</title>
-		<div class="row">
-			<div class="span2 offset2" style="border: 1px solid black">
-			Hola esto es bootstrap
-			</div>
-			<div class="span3 offset1" style="border: 1px solid black">
-			Hola esto es bootstrap2
-			</div>
-		</div>
+	
+
+
+
+
+
+<div class="dropdown">
+  <!-- Link or button to toggle dropdown -->
+  <ul class="dropdown-menu" role="menu" aria-labelledby="dropdownMenu">
+    <li><a tabindex="-1" href="#">Action</a></li>
+    <li><a tabindex="-1" href="#">Another action</a></li>
+    <li><a tabindex="-1" href="#">Something else here</a></li>
+    <li class="divider"></li>
+    <li><a tabindex="-1" href="#">Separated link</a></li>
+  </ul>
+</div>
+
+
+</head>
+
+
+
+<div class="accordion" id="accordion2">
+  <div class="accordion-group">
+    <div class="accordion-heading">
+      <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion2" href="#collapseOne">
+        Collapsible Group Item #1
+      </a>
+    </div>
+    <div id="collapseOne" class="accordion-body collapse in">
+      <div class="accordion-inner">
+      </div>
+    </div>
+  </div>
+  <div class="accordion-group">
+    <div class="accordion-heading">
+      <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion2" href="#collapseTwo">
+        Collapsible Group Item #2
+      </a>
+    </div>
+    <div id="collapseTwo" class="accordion-body collapse">
+      <div class="accordion-inner">
+      </div>
+    </div>
+  </div>
+  <div class="accordion-group">
+    <div class="accordion-heading">
+      <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion2" href="#collapseThree">
+        Collapsible Group Item #3
+      </a>
+    </div>
+    <div id="collapseThree" class="accordion-body collapse">
+      <div class="accordion-inner">
+        ...
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+  <div class="row">
+      <div class="span2 offset2" style="border: 1px solid black">
+      Hola esto es bootstrap
+      </div>
+      <div class="span3 offset1" style="border: 1px solid black">
+      Hola esto es bootstrap2
+      </div>
+    </div>
 
 <form class="form-horizontal">
   <div class="control-group">
@@ -39,8 +101,36 @@
 </form>
 
 
-</head>
+
+
+
+
 <body>
+<table class="table table-condensed">
+    <tr class="warning">
+    <td>1</td>
+    <td>Column content</td>
+    <td>Column content</td>
+    <td>Column content</td>
+
+    </tr>
+
+       <tr class="success">
+    <td>1</td>
+    <td>Column content</td>
+    <td>Column content</td>
+    <td>Column content</td>
+
+    </tr>
+
+    <tr class="active">
+    <td>1</td>
+    <td>Column content</td>
+    <td>Column content</td>
+    <td>Column content</td>
+
+    </tr>
+  </table>
 
 </body>
 </html>
